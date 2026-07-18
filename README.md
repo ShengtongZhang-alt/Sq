@@ -8,11 +8,11 @@ Let \(G\) be a finite connected simple undirected graph on \(n\) vertices, and l
 \(\lambda_1,\ldots,\lambda_n\) be the eigenvalues of its adjacency matrix, counted
 with multiplicity. Define
 
-\[
+$$
 s^+(G) := \sum_{\lambda_i>0}\lambda_i^2,
 \qquad
 s^-(G) := \sum_{\lambda_i<0}\lambda_i^2.
-\]
+$$
 
 Then
 
