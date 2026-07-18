@@ -1,5 +1,7 @@
 # Positive and Negative Square Energy in Lean
 
+Authors: Yinchen Liu, Quanyu Tang and Shengtong Zhang
+
 This repository is a Lean 4 and Mathlib formalization of the positive/negative square-energy conjecture for finite connected simple graphs, including its spectral reduction and the graph-supported doubly-nonnegative matrix inequality.
 
 ## The theorem
