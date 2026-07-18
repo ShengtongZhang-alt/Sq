@@ -52,7 +52,11 @@ The eigenvalue and energy definitions in this statement are in
 
 ## File guide
 
+### Main Files
 - `Sq/Definition.lean` — adjacency eigenvalues and the two square energies.
+- `Sq/Main.lean` — the final theorem and public entry point.
+
+### Proofs
 - `Sq/Spectral.lean` — spectral parts, positivity, orthogonality, and trace
   identities.
 - `Sq/Sparse/Basic.lean` and `Sq/Sparse/Scalar.lean` — definitions and scalar
@@ -62,7 +66,6 @@ The eigenvalue and energy definitions in this statement are in
 - `Sq/Sparse/Main.lean` — assembly of the supported and unrestricted DNN
   inequalities.
 - `Sq/Deduction.lean` — the Hadamard-square deduction from the matrix inequality.
-- `Sq/Main.lean` — the final theorem and public entry point.
 - `Sq/Audit.lean` — kernel axiom audit for the final theorem and critical inputs.
 - `FORMALIZATION.md` — detailed correspondence between the mathematics and Lean.
 - `VERIFICATION.md` — reproducible build, source-scan, and axiom-audit record.
