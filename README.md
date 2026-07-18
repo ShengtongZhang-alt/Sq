@@ -4,8 +4,8 @@ This repository is a Lean 4 and Mathlib formalization of the positive/negative s
 
 ## The theorem
 
-Let \(G\) be a finite connected simple undirected graph on \(n\) vertices, and let
-\(\lambda_1,\ldots,\lambda_n\) be the eigenvalues of its adjacency matrix, counted
+Let $G$ be a finite connected simple undirected graph on $n$ vertices, and let
+$\lambda_1,\ldots,\lambda_n$ be the eigenvalues of its adjacency matrix, counted
 with multiplicity. Define
 
 $$
@@ -16,9 +16,9 @@ $$
 
 Then
 
-\[
-\min\{s^+(G),s^-(G)\} \ge n-1.
-\]
+$$
+\min(s^+(G),s^-(G)) \ge n-1.
+$$
 
 ## Lean statement
 
