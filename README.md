@@ -22,7 +22,7 @@ $$
 Then
 
 $$
-\min\left(s^+(G),\,s^-(G)\right) \ge n-1.
+\min\left(s^+(G), s^-(G)\right) \ge n-1.
 $$
 
 ## Lean statement
